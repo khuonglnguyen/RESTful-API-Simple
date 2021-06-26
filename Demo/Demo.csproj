@@ -183,9 +183,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <EntityDeploy Include="Models\DemoModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
@@ -194,6 +192,7 @@
     <Content Include="Models\DemoModel.edmx.diagram">
       <DependentUpon>DemoModel.edmx</DependentUpon>
     </Content>
+    <Content Include="App_Data\REST_API_Demo.bak" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
